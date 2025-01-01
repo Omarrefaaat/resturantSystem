@@ -13,6 +13,20 @@ public class Main {
         emploee2.staffId=26;
         emploee2.printStaffData();
 
+        chief emploee3 = new chief();
+        emploee3.name = "ahmed";
+        emploee3.salary=800;
+        emploee3.chiefId=987;
+        emploee3.printChiefData();
+
+        chief emploee4 = new chief();
+        emploee4.name="said";
+        emploee4.salary=265;
+        emploee4.chiefId=59;
+        emploee4.printChiefData();
+
+
+
 
     }
 }
