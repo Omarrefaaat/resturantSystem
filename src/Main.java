@@ -25,6 +25,28 @@ public class Main {
         emploee4.chiefId=59;
         emploee4.printChiefData();
 
+        menu item1 = new menu();
+        item1.item="pizza";
+        item1.price=250;
+        item1.printMenuData();
+
+        menu item2 = new menu();
+        item2.item="pasta";
+        item2.price=200;
+        item2.printMenuData();
+
+        menu item3 = new menu();
+        item3.item="appetizer";
+        item3.price=100;
+        item3.printMenuData();
+
+        menu item4 = new menu();
+        item4.item="sandwich";
+        item4.price=150;
+        item4.printMenuData();
+
+
+
 
 
 
