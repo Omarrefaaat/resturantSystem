@@ -2,53 +2,29 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        staff emploee1 = new staff();
-        emploee1.name = "omar" ;
-        emploee1.salary=2000;
-        emploee1.staffId=59;
-        emploee1.printStaffData();
-        staff emploee2 = new staff();
-        emploee2.name="ali";
-        emploee2.salary=1200;
-        emploee2.staffId=26;
-        emploee2.printStaffData();
+        Menu item1 = new Menu("pizza", 1500);
+        item1.print();
+        Menu item2 = new Menu("pasta");
+        item2.print();
+        Menu item3 = new Menu();
+        item3.print();
 
-        chief emploee3 = new chief();
-        emploee3.name = "ahmed";
-        emploee3.salary=800;
-        emploee3.chiefId=987;
-        emploee3.printChiefData();
+        Chief chief1 = new Chief("ahmed ",1500,658);
+        chief1.print();
+        Chief chief2 = new Chief("omar ",1200);
+        chief2.print();
+        Chief chief3 = new Chief("alaa ");
+        chief3.print();
+        Chief chief4 = new Chief();
+        chief4.print();
 
-        chief emploee4 = new chief();
-        emploee4.name="said";
-        emploee4.salary=265;
-        emploee4.chiefId=59;
-        emploee4.printChiefData();
-
-        menu item1 = new menu();
-        item1.item="pizza";
-        item1.price=250;
-        item1.printMenuData();
-
-        menu item2 = new menu();
-        item2.item="pasta";
-        item2.price=200;
-        item2.printMenuData();
-
-        menu item3 = new menu();
-        item3.item="appetizer";
-        item3.price=100;
-        item3.printMenuData();
-
-        menu item4 = new menu();
-        item4.item="sandwich";
-        item4.price=150;
-        item4.printMenuData();
-
-
-
-
-
-
+        Staff staff1 = new Staff("hossam",1500,56);
+        staff1.print();
+        Staff staff2 = new Staff("mahmoud",1900);
+        staff2.print();
+        Staff staff3 = new Staff("ali");
+        staff3.print();
+        Staff staff4 = new Staff();
+        staff4.print();
     }
 }
