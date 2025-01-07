@@ -7,18 +7,19 @@ public class Menu {
         this.item=item;
         this.price=price;
     }
-    Menu (String item ){
-        System.out.println("this is menu constructor");
+
+    public String getItem (){
+        return item;
+    }
+    public void setItem (String item){
         this.item=item;
-        this.price=00;
     }
-    Menu (){
-        System.out.println("this is menu constructor");
-        this.item="";
-        this.price=00;
+
+    public int getPrice (){
+        return price;
     }
-    public void print(){
-        System.out.println(item);
-        System.out.println(price);
+    public void setPrice (int price){
+        this.price=price;
     }
+
 }
